@@ -29,8 +29,8 @@
     ],
 
     "props":{
-      "verticalAlign ":"center",
-      "preventVerticalStretch":true
+      "preventVerticalStretch":false,
+      "verticalAlign ":"center"
     }
   },
 
