@@ -40,7 +40,7 @@
     "children": ["sku-selector", "product-quantity"]
   },
 
-  "stack-layout#brand": {
+  "stack-layout": {
     "children": [
       "product-images",
       "product-brand"
@@ -56,7 +56,9 @@
 
   "sku-selector": {
     "props": {
-      "hideImpossibleCombinations": false
+      "hideImpossibleCombinations": false,
+      "showValueForVariation":"image",
+      "showVariationsErrorMessage": true
     }
   }
 
