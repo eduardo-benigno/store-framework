@@ -15,17 +15,18 @@
   },
 
   "flex-layout.col#right": {
-    "props": {
-      "verticalAlign": "middle",
-      "preventVerticalStretch": true
-    },
     "children": [
       "product-name",
       "product-identifier.product",
       "product-price",
       "buy-button",
       "flex-layout.row"
-    ]
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
+    }
+
   },
 
   "product-price": {
