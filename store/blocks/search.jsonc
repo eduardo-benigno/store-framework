@@ -40,6 +40,12 @@
     "props":{
       "width":"20%"
     }
+  },
+
+  "flex-layout.col#search":{
+    "props":{
+      "width":"20%"
+    }
   }
 
 
