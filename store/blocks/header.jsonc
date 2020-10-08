@@ -1,10 +1,9 @@
 { 
   "header": {
-    "blocks": [
-      "header.full",
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
 
   "header-layout.mobile": {
