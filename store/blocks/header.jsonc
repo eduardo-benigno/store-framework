@@ -1,4 +1,19 @@
 { 
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#notification",
+      "header-row#main-mobile",
+      "header-row#search"
+    ]
+  },
+
   "header-row#notification":{
     "children": [
       "header-spacer",
@@ -10,7 +25,7 @@
     ]
   },
 
-  "header-row#main":{
+  "header-row#main-mobile":{
     "children":[
       "logo",
       "header-spacer",
