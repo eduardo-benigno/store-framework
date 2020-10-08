@@ -13,7 +13,7 @@
         "menu-item#washers"
     ],
     "props": {
-        "orientation": "vertical"
+        "orientation": "vertical "
     }
   },
 
