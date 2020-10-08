@@ -43,9 +43,9 @@
   },
 
   "flex-layout.col#search":{
-    "props":{
-      "width":"20%"
-    }
+    "children": [
+      "search-content"
+    ]
   }
 
 
